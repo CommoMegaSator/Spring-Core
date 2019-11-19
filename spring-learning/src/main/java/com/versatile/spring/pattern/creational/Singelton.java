@@ -1,6 +1,6 @@
 //Creates only one object
 
-package com.versatile.spring.pattern;
+package com.versatile.spring.pattern.creational;
 
 public final class Singelton {
 

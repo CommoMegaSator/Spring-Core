@@ -1,6 +1,6 @@
 //Creates objects by Factory
 
-package com.versatile.spring.pattern;
+package com.versatile.spring.pattern.creational;
 
 interface Kage{
     String village();

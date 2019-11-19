@@ -1,6 +1,6 @@
 //Builds objects
 
-package com.versatile.spring.pattern;
+package com.versatile.spring.pattern.creational;
 
 public class BuilderPattern {
 

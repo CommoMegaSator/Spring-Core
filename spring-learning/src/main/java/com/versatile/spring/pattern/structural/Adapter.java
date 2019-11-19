@@ -1,4 +1,4 @@
-package com.versatile.spring.pattern;
+package com.versatile.spring.pattern.structural;
 
 interface Car{
     void wash();

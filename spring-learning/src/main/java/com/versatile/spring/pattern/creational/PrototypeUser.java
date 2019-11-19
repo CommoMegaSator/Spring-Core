@@ -1,6 +1,6 @@
 //Clones objects
 
-package com.versatile.spring.pattern;
+package com.versatile.spring.pattern.creational;
 
 class Prototype implements Cloneable{
     private int number;

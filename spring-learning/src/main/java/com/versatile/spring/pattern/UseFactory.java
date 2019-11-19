@@ -1,3 +1,5 @@
+//Creates objects by Factory
+
 package com.versatile.spring.pattern;
 
 interface Kage{

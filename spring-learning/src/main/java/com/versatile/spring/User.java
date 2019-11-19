@@ -8,10 +8,10 @@ import javax.annotation.PreDestroy;
 
 @Component
 public class User {
-    @Value("${username}")
+    @Value("${my.username}")
     private String name;
 
-    @Value("${userage}")
+    @Value("${my.userage}")
     private int age;
 
     public String getName() {

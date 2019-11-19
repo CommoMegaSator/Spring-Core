@@ -1,6 +1,7 @@
 package com.versatile.spring;
 
 import com.versatile.spring.configuration.SpringConfig;
+import com.versatile.spring.pattern.UseFactory;
 import com.versatile.spring.uchiha.Uchiha;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -11,6 +12,8 @@ public class SpringLearningApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(SpringLearningApplication.class, args);
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+
+        UseFactory.useFactoryMethod();
 
         try {
             Uchiha uchiha = context.getBean("itachi", Uchiha.class);
@@ -25,6 +28,10 @@ public class SpringLearningApplication {
         }catch (NoSuchBeanDefinitionException ex){
             System.out.println(ex);
         }
+    }
+
+    private void useFactoryMethod(){
+
     }
 
 }

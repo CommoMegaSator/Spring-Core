@@ -2,8 +2,7 @@ package com.versatile.spring;
 
 import com.versatile.spring.configuration.SpringConfig;
 import com.versatile.spring.pattern.creational.*;
-import com.versatile.spring.pattern.structural.Adapter;
-import com.versatile.spring.pattern.structural.Bridge;
+import com.versatile.spring.pattern.structural.*;
 import com.versatile.spring.uchiha.Uchiha;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -37,6 +36,11 @@ public class Starter {
 
         System.out.println("\nUsing Bridge pattern:");
         Bridge.useBridge();
+
+        System.out.println("\nUsing Facade pattern:");
+        Facade facade = new Facade();
+        facade.writeShirtCode();
+        facade.writeCleanCode();
     }
 
     public void useBeans(){

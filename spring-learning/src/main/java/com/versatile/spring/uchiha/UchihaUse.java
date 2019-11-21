@@ -1,6 +1,5 @@
-package com.versatile.spring;
+package com.versatile.spring.uchiha;
 
-import com.versatile.spring.uchiha.Uchiha;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

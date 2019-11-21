@@ -4,6 +4,7 @@ import com.versatile.spring.configuration.SpringConfig;
 import com.versatile.spring.pattern.creational.*;
 import com.versatile.spring.pattern.structural.*;
 import com.versatile.spring.uchiha.Uchiha;
+import com.versatile.spring.uchiha.UchihaUse;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

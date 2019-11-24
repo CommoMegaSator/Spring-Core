@@ -42,6 +42,22 @@ public class Starter {
         Facade facade = new Facade();
         facade.writeShirtCode();
         facade.writeCleanCode();
+
+        System.out.println("\nUsing FlyWeight pattern:");
+        FlyWeight flyWeight = new FlyWeight();
+        flyWeight.useFlyWeight();
+
+        System.out.println("\nUsing Decorator pattern:");
+        Decorator decorator = new Decorator();
+        decorator.useDecorator();
+
+        System.out.println("\nUsing Proxy pattern:");
+        Proxy proxy = new Proxy();
+        proxy.getText();
+
+        System.out.println("\nUsing Composite pattern:");
+        Composite composite = new Composite();
+        composite.useComposite();
     }
 
     public void useBeans(){

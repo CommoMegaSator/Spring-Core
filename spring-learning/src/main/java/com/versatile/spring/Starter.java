@@ -1,6 +1,7 @@
 package com.versatile.spring;
 
 import com.versatile.spring.configuration.SpringConfig;
+import com.versatile.spring.pattern.behavioral.ChainOfResponsibility;
 import com.versatile.spring.pattern.creational.*;
 import com.versatile.spring.pattern.structural.*;
 import com.versatile.spring.uchiha.Uchiha;
@@ -58,6 +59,10 @@ public class Starter {
         System.out.println("\nUsing Composite pattern:");
         Composite composite = new Composite();
         composite.useComposite();
+
+        System.out.println("\nUsing Chain of Responsibility pattern:");
+        ChainOfResponsibility chainOfResponsibility = new ChainOfResponsibility();
+        chainOfResponsibility.useChainOfResponsibility();
     }
 
     public void useBeans(){

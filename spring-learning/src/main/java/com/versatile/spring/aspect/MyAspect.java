@@ -15,11 +15,11 @@ public class MyAspect {
 
     @Before("charinganAspect()")
     public void beforeMethod(JoinPoint joinPoint){
-        System.out.println("Suka blyat before aspect" + joinPoint.getSignature());
+        System.out.println("Before aspect" + joinPoint.getSignature());
     }
 
     @After("charinganAspect()")
     public void afterMethod(JoinPoint joinPoint){
-        System.out.println("Suka blyat after aspect" + joinPoint.getSignature());
+        System.out.println("After aspect" + joinPoint.getSignature());
     }
 }

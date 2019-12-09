@@ -2,7 +2,7 @@ package com.versatile.spring.pattern.structural;
 
 class Indus{
     public void writeShirtCode(){
-        System.out.println("Writing fucking gavnokod...");
+        System.out.println("Writing not clean code...");
     }
 }
 

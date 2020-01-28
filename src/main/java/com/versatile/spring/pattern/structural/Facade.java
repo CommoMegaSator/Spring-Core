@@ -1,7 +1,7 @@
 package com.versatile.spring.pattern.structural;
 
-class Indus{
-    public void writeShirtCode(){
+class BadCoder{
+    public void writeBadCode(){
         System.out.println("Writing not clean code...");
     }
 }
@@ -15,8 +15,8 @@ class Developer{
 public class Facade {
 
     public void writeShirtCode(){
-        Indus indus = new Indus();
-        indus.writeShirtCode();
+        BadCoder indus = new BadCoder();
+        indus.writeBadCode();
     }
 
     public void writeCleanCode(){

@@ -7,7 +7,7 @@ public final class Singelton {
     private static Singelton singelton = new Singelton();
     private int number;
 
-    private Singelton(){};
+    private Singelton(){}
 
     public int getNumber() {
         return number;
